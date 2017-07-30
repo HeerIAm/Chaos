@@ -1,0 +1,103 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Users\Heer\Documents\bluej\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Users\Heer\Documents\bluej\lib\bluejcore.jar;C:\Users\Heer\Documents\bluej\lib\junit-4.11.jar;C:\Users\Heer\Documents\bluej\lib\hamcrest-core-1.3.jar;C:\Users\Heer\Documents\bluej\lib\lang-stride.jar;C:\Users\Heer\Documents\bluej\lib\userlib\pi4j-core.jar;C:\Users\Heer\Documents\bluej\lib\userlib\pi4j-device.jar;C:\Users\Heer\Documents\bluej\lib\userlib\pi4j-gpio-extension.jar;C:\Users\Heer\Documents\bluej\lib\userlib\pi4j-service.jar;C:\Users\Heer\Documents\HowToBot\Chaos
+-d
+C:\Users\Heer\Documents\HowToBot\Chaos\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java...
+Constructing Javadoc information...
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:1: error: package org.osbot.rs07.api.model does not exist
+import org.osbot.rs07.api.model.Entity;
+                               ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:2: error: package org.osbot.rs07.script does not exist
+import org.osbot.rs07.script.Script;
+                            ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:3: error: package org.osbot.rs07.script does not exist
+import org.osbot.rs07.script.ScriptManifest;
+                            ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:6: error: package org.osbot.rs07.api does not exist
+import org.osbot.rs07.api.GroundItems;
+                         ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:7: error: package org.osbot.rs07.api.map does not exist
+import org.osbot.rs07.api.map.Position;
+                             ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:8: error: package org.osbot.rs07.api.model does not exist
+import org.osbot.rs07.api.model.GroundItem;
+                               ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:9: error: package org.osbot.rs07.script does not exist
+import org.osbot.rs07.script.MethodProvider;
+                            ^
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:13: error: cannot find symbol
+public class ChaosPicker extends Script {
+                                 ^
+  symbol: class Script
+C:\Users\Heer\Documents\HowToBot\Chaos\ChaosPicker.java:12: error: cannot find symbol
+@ScriptManifest(author = "here", info = "My Trying to Learn", name = "Chaos picker", version = 0, logo = "")
+ ^
+  symbol: class ScriptManifest
+javadoc: warning - Class ScriptManifest not found.
+Standard Doclet version 1.8.0_131
+Building tree for all the packages and classes...
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\ChaosPicker.html...
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\package-frame.html...
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\package-summary.html...
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\constant-values.html...
+Building index for all the packages and classes...
+javadoc: warning - Class ScriptManifest not found.
+javadoc: warning - Class ScriptManifest not found.
+Building index for all classes...
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\allclasses-frame.html...
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\allclasses-noframe.html...
+javadoc: warning - Class ScriptManifest not found.
+Generating C:\Users\Heer\Documents\HowToBot\Chaos\doc\index.html...
+45 warnings

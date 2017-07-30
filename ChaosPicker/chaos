@@ -1,0 +1,82 @@
+import org.osbot.rs07.api.model.Entity;
+import org.osbot.rs07.script.Script;
+import org.osbot.rs07.script.ScriptManifest;
+import java.io.IOException;
+import java.util.List;
+import org.osbot.rs07.api.GroundItems;
+import org.osbot.rs07.api.map.Position;
+import org.osbot.rs07.api.model.GroundItem;
+import org.osbot.rs07.script.MethodProvider;
+import java.awt.*;
+
+//* @ScriptManifest(author = "here", info = "My Trying to Learn", name = "Chaos picker", version = 0, logo = "")
+public class ChaosPickerV1 extends Script {
+
+    @Override
+    public void onStart() {
+        log("You do all the cool intialization stuff that isnt looped here?");
+    }
+
+    private State getState() { //gets the state
+        GroundItem ChaosRune = getGroundItems().closestThatContains("Chaos rune");
+        if (ChaosRune!=null)  {
+            return State.PICK;
+        }
+
+        //if(getting attacked) return combat
+
+        //if(out of wines) return bank
+
+        //if (guy nearby) return Player
+
+        if(ChaosRune == null)
+        {
+            return State.WAIT;
+        }
+
+
+
+        return State.WAIT;
+    }
+
+    @Override
+    public int onLoop() throws InterruptedException {
+        GroundItem ChaosRune = getGroundItems().closestThatContains("Chaos rune");
+        switch (getState()) {
+            case PICK: //if state: pick
+                ChaosRune.interact("Take");  //pick up the rune
+                break;
+            //case DEATH:
+            //run back
+            //break;
+            //case BANK:
+            //run to bank and back, out of wines.
+            //break;
+            //case WAIT:
+            //No rune to pick up just stand there.
+            //break;
+            //case COMBAT:
+            //moss giant attacks me, RUN LEFT
+            //break;
+            //case PLAYER:
+            //world hop.
+            //break;
+        }
+        return random(200, 300);
+    }
+
+    @Override
+    public void onExit() {
+        log("ty?!");
+    }
+
+    @Override
+    public void onPaint(Graphics2D g) {
+
+    }
+
+    private enum State {
+        PICK, WAIT, DEATH, BANK, COMBAT, PLAYER
+    }
+
+}
